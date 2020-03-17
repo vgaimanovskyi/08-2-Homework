@@ -1,0 +1,124 @@
+body {
+    background: #000;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: "HansKendrick", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer {
+    max-width: 1600px;
+    background-color: #e2e7ec;
+    padding: 90px 200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+[class^="col-"] {
+    padding-right: 10px;
+    padding-left: 10px;    
+}
+[class^="content-"] {
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 540px;
+}
+.photo {
+    width: 100%;
+}
+.date {
+    color: #818181;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 0 24px 0;
+}
+
+/* .col-8 */
+.col-8 .content-8 {
+    position: relative;
+    padding: 0;
+    background-image: url(../images/col-8-img.png);
+}
+.content-8 > .text {
+    position: absolute;
+    left: 43px;
+    bottom: 40px;
+}
+.content-8 .caption {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* .col-4 */
+.col-4 .text {
+    position: relative;
+    padding: 28px;
+}
+.col-4 .caption {
+    color: #1d1d1d;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    height: 150px;
+}
+.col-4 .icon {
+    position: absolute;
+    left: 25px;
+    bottom: 40px;
+}
+
+.load {
+    position: relative;
+    color: #99a5b0;
+    font-size: 13px;
+    max-width: max-content;
+    margin: 67px auto 0 auto;
+}
+.load img {
+    position: absolute;
+    transform: translate(-150%, -25%);
+}
